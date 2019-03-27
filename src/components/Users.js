@@ -11,7 +11,7 @@ class Users extends Component {
       <div>
         {this.props.userCount} users have an account.
         <ul>
-
+          {users}
         </ul>
       </div>
     )
