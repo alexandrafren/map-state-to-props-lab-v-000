@@ -15,7 +15,7 @@ class Users extends Component {
 }
 
 //add mapStateToProps here
-let mapStateToProps = () => {
+const mapStateToProps = () => {
 
 }
 
