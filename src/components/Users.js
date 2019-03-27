@@ -6,6 +6,7 @@ class Users extends Component {
   render() {
     return (
       <div>
+        {this.props.userCount} users have an account.
         <ul>
 
         </ul>
