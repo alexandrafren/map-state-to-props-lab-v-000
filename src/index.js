@@ -18,4 +18,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-export default connect(mapStateToProps)()
