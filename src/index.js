@@ -13,8 +13,6 @@ const store = createStore(
 ReactDOM.render(
   <Provider store={store}>
     <App store={store}/>
-  </Provider>
-  // add imports and code
-  ,
+  </Provider>,
   document.getElementById('root')
 );
