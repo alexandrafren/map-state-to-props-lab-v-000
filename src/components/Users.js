@@ -4,6 +4,9 @@ import { connect } from 'react-redux';
 class Users extends Component {
 
   render() {
+    let users = {this.props.users}.map(user){
+      return <li>User: {user.username}</li>
+    }
     return (
       <div>
         {this.props.userCount} users have an account.
